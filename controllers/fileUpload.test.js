@@ -29,7 +29,7 @@ describe('File uploading API', function() {
     
     it('should return a JSON', async function() {
         try {
-            const response = await chai.request(server).post('/api/files').send({message: 'Hello, Server!'});
+            const response = await chai.request(server).post('/api/files').send('Hello, Server!');
             expect(response).to.be.json;
         } catch (err) {
             throw err;
