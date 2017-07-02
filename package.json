@@ -5,7 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha",
-    "run": "node server"
+    "start": "node server"
+  },
+  "engines": {
+    "node": "8.0.0"
   },
   "repository": {
     "type": "git",
