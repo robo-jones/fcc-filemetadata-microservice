@@ -1,0 +1,35 @@
+<!doctype HTML>
+
+<head>
+    <title>File Metadata Microservice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h1 class="text-center">FreeCodeCamp File Metadata Microservice</h1>
+                <p><strong>User Story:</strong> I can submit a FormData object that includes a file upload.</p>
+                <p><strong>User Story:</strong> When I submit something, I will receive the file size in bytes within the JSON response.</p>
+                <br>
+                <div class="panel panel-default">
+                    <form action="/api/files" enctype="multipart/form-data" method="post">
+                        <label for="fileInput">Select a file to upload</label>
+                        <input type="file" id="fileInput" name="file">
+                        <div class="text-center">
+                            <button class="btn btn-primary" id="submitButton" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <br>
+                <p>Created by Harrison Jones.</p>
+                <a href="https://github.com/robo-jones/fcc-filemetadata-microservice">Source on GitHub</a>
+            </div>
+        </div>
+    </div>
+</body>
