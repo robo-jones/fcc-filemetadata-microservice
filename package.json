@@ -1,0 +1,28 @@
+{
+  "name": "filemetadatamicroservice",
+  "version": "1.0.0",
+  "description": "Simple app that accepts a file upload and returns a JSON with the file's size in bytes",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "run": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robo-jones/fcc-filemetadata-microservice.git"
+  },
+  "author": "Harrison Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robo-jones/fcc-filemetadata-microservice/issues"
+  },
+  "homepage": "https://github.com/robo-jones/fcc-filemetadata-microservice#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
