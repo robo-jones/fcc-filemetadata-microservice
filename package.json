@@ -23,6 +23,7 @@
     "mocha": "^3.4.2"
   },
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "multer": "^1.3.0"
   }
 }
